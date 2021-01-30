@@ -1,0 +1,18 @@
+.card{
+    width: 350px;
+}
+
+p{
+    cursor: pointer;
+    font-size: 18px;
+}
+
+p:hover{
+    animation:changecolor 0.5s;
+    animation-fill-mode: forwards
+}
+
+@keyframes changecolor{
+    from{color: black;}
+    to{color:#0275d8}
+}
